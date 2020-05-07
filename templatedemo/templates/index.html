@@ -1,0 +1,12 @@
+<h2>Hello! This is index.html.</h2>
+<p>
+    This is var1: {{ var1 }}
+</p>
+<p>
+    This is var2: {{ var2 }}
+</p>
+<p>
+    Below is a different HTML file that we're importing.
+</p>
+
+{% include 'extra.html' with boop=var3 %}
